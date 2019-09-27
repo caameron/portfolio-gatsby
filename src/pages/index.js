@@ -1,13 +1,18 @@
 import React from 'react'
 import { Link } from "gatsby"
+import Navbar from "../components/navbar"
+import VerticalBody from "../components/verticalBody"
 
 const IndexPage = () => (
-  <div>
-    <h1 className="fw5 sans-serif">Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+  <div >
+    <Navbar />
+    <div class="ma3">
+      
+      <VerticalBody />
+    </div>
+    
   </div>
+
 )
 
 export default IndexPage
