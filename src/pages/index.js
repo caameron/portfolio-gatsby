@@ -12,6 +12,7 @@ const IndexPage = () => (
       <Header />
       <ContentNav />
       <About />
+      <div class="pa5 tc f6">© Caameron Nakasone. All Rights Reserved. 2019. Site Self Made</div>
     </div>
     
   </div>

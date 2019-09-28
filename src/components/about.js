@@ -7,7 +7,7 @@ import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons"
 export default() => (
 
     <section class="mw7 center avenir">
-    <h2 class="baskerville fw1 ph3 ph0-l tc">About</h2>
+    <h2 class="baskerville fw1 ph3 ph0-l tc" id="about">About</h2>
     <article class="bt bb b--black-10">
         <div class="flex flex-column flex-row-ns">
           <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
@@ -35,7 +35,7 @@ export default() => (
         </div>
     </article>
 
-    <h2 class="baskerville fw1 ph3 ph0-l tc">Work Experience</h2>
+    <h2 class="baskerville fw1 ph3 ph0-l tc" id="work">Work Experience</h2>
     <article class="bt bb b--black-10">
         <div class="flex flex-column flex-row-ns">
           <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
@@ -64,7 +64,7 @@ export default() => (
         </div>
     </article>
 
-    <h2 class="baskerville fw1 ph3 ph0-l tc">Contact</h2>
+    <h2 class="baskerville fw1 ph3 ph0-l tc" id="contact">Contact</h2>
     <article class="bt bb b--black-10">
       <div class="cf">
         <div class="fl w-33 tc pt2">
