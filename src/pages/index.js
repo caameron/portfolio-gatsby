@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from "gatsby"
 import Navbar from "../components/navbar"
-import ContentContainer from "../components/contentContainer"
 import Header from "../components/header"
 import ContentNav from "../components/ContentNav"
+import About from "../components/about"
 
 const IndexPage = () => (
   <div class="bg-light-gray">
@@ -11,7 +11,7 @@ const IndexPage = () => (
     <div class="ma3">
       <Header />
       <ContentNav />
-      <ContentContainer />
+      <About />
     </div>
     
   </div>
